@@ -4,7 +4,7 @@ public class Block {
     int endAddress;
     boolean isAllocated;
     String processID;
-    int internalFragmintation;
+    int internalFragmentation;
 
     public Block(int size, int startAddress, int endAddress) {
         this.size = size;
@@ -12,7 +12,7 @@ public class Block {
         this.endAddress = endAddress;
         isAllocated = false;
         processID = null;
-        internalFragmintation = 0;
+        internalFragmentation = 0;
     }
 
     public void setIsAllocated(boolean isAllocated) {
@@ -23,8 +23,8 @@ public class Block {
         this.processID = processID;
     }
 
-    public void setInternalFragmentation(int internalFragmintation) {
-        this.internalFragmintation = internalFragmintation;
+    public void setInternalFragmentation(int internalFragmentation) {
+        this.internalFragmentation = internalFragmentation;
     }
 
     public int getSize() {
@@ -48,6 +48,6 @@ public class Block {
     }
 
     public int getInternalFragmentation() {
-        return internalFragmintation;
+        return internalFragmentation;
     }
 }

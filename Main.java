@@ -21,7 +21,7 @@ public class Main {
     }
 
     System.out.print("Enter allocation strategy (1 for first-fit, 2 for best-fit, 3 for worst-fit): ");
-    int straregy = read.nextInt();
+    int strategy = read.nextInt();
 
     System.out.println("Memory blocks are created…/nMemory blocks:");
     System.out.println("============================================");
@@ -55,7 +55,7 @@ public class Main {
                 System.out.print("Enter the process ID and size of process: ");
                 pID = read.next();
                 pSize = read.nextInt();
-                memo.allocateProcess(pID,pSize,straregy);
+                memo.allocateProcess(pID,pSize,strategy);
                 break;
             case 2:
                 System.out.print("Enter the process ID: ");
