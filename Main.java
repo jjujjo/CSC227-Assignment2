@@ -23,7 +23,7 @@ public class Main {
     System.out.print("Enter allocation strategy (1 for first-fit, 2 for best-fit, 3 for worst-fit): ");
     int strategy = read.nextInt();
 
-    System.out.println("Memory blocks are created…/nMemory blocks:");
+    System.out.println("Memory blocks are created…\nMemory blocks:");
     System.out.println("============================================");
     System.out.println("Block#\tSize\tStart-End\tStatus");
     System.out.println("============================================");
